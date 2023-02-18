@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/zlk_lua.h
+iostream
+../include/iostream
+fstream
+../include/fstream
+string.h
+../include/string.h
+lua.h
+-
+lauxlib.h
+-
+lualib.h
+-
+
+/root/git/Lua/c_upvalue/main.cpp
+iostream
+/root/git/Lua/c_upvalue/iostream
+fstream
+/root/git/Lua/c_upvalue/fstream
+string.h
+/root/git/Lua/c_upvalue/string.h
+lua.h
+-
+lauxlib.h
+-
+lualib.h
+-
+zlk_lua.h
+/root/git/Lua/c_upvalue/zlk_lua.h
+

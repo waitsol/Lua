@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/upvalue.dir/main.cpp.o  -o upvalue  -llua -ldl 

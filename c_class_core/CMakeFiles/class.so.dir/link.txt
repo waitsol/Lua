@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -Wall -ggdb  -shared -Wl,-soname,libclass.so.so -o libclass.so.so CMakeFiles/class.so.dir/main.cpp.o  -llua -ldl 

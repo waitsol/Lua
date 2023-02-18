@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/c_read_table.dir/main.cpp.o  -o c_read_table  -llua -ldl 
